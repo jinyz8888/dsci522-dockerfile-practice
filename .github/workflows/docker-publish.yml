@@ -31,7 +31,7 @@ jobs:
           images: f1yingh3ap/dsci522-dockerfile-practice
       
       - name: Build and push Docker image
-        uses: docker/build-push-action@3b5e8027fcad23fda98b2eac259d8d67585f671
+        uses: docker/build-push-action@22a063cd5eec7fadb9f94da49c731e27058d2295
         with:
           context: .
           file: ./Dockerfile
