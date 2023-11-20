@@ -1,5 +1,4 @@
-# Docker file for this personal project
-# Yingzi Jin, Nov. 20, 2023
+
 
 # use jupyter/minimal-notebook as the base image
 FROM quay.io/jupyter/minimal-notebook:2023-11-19
